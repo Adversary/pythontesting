@@ -13,7 +13,7 @@
 
 def menu():
     # First menu, making a song name.
-    print ("Welcome to Guitar note maker.")
+    print ("Welcome to Guitar/Bass note maker.")
     print (" ")
     print ("First you need to make a name for your project.")
     print ("Name your song: ")
@@ -42,13 +42,16 @@ def menu5():
     return input ("Chose next note: ")
 
 def choiceauto:
-    
+    pass
 
 def choiseself:
-    
+    pass
 
-def choiseway:
-    
+def choisewaydown:
+    pass
+
+def choicewayup:
+    pass
 
 
 # The program it self.
@@ -58,17 +61,18 @@ choise = 0
 while loop ==1:
     choise = menu2()
     if choice == 1:
-        choiceauto(input("You have chosen all notes")noteway=x)
+        choiceauto(input("You have chosen all notes"),noteway=x)
     elif choice == 2:
-        
+        choiceman(input("You have chosen to add noteway after /
+you have chosen a note."))
     elif choice == 3:
-        
+        pass
     elif choice == 4:
-        
+        pass
     elif choice == 5:
-
+        pass
         loop = 0
 
-print ("Thank you for using songmaker for guitar/base.")
+print ("Thank you for using songmaker for guitar/bass.")
 print ("This was made by Adversary  (norwaytmp@gmail.com)")
 print ("Copyrights to creator. All rights reserved.")
