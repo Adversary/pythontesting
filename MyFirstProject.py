@@ -6,7 +6,7 @@
 # So I have no intensions of making this a public thing.
 # I will need to learn a few things on the way, but I know
 # most of the features I want to do before I begin.
-# Things will most likely come up during my prosess, but thats why I do this.
+# Things will most likely come up during my prosess, but that's why I do this.
 # To learn.
 
 # Here we go.
@@ -61,9 +61,9 @@ choise = 0
 while loop ==1:
     choise = menu2()
     if choice == 1:
-        choiceauto(input("You have chosen all notes"),noteway=x)
+        pass choiceauto(input("You have chosen all notes"),noteway=x)
     elif choice == 2:
-        choiceman(input("You have chosen to add noteway after /
+        pass choiceman(input("You have chosen to add noteway after /
 you have chosen a note."))
     elif choice == 3:
         pass
